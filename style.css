@@ -17,12 +17,11 @@ main{
     display: flex;
     margin-left: 2rem;
     margin-top: 2rem;
-    size: 1rem;
-}
+ }
 .right{
     width: 65%;
     background-color: white;
-    margin-left: 5rem;
+    margin-left: 7rem;
 }
 header{
     display: flex;
@@ -43,10 +42,65 @@ a{
 }
 .line{
     border: 2px solid black;
-    width: 5rem;
+    width: 10rem;
+    margin-right: 10rem;
+    margin-top: 6.5rem;
 }
 h1{
     font-size: 4rem;
     font-weight: 500;
-    text-wrap: baseline;
+    padding: 0;
+    margin: 0;
+}
+.bold{
+    font-weight: 600;
+}
+.author{
+    margin-top: 8px;
+    font-size: 20px;
+}
+.headerinline{
+    display: flex;
+    align-items: center;
+    margin-top: 8rem;
+    margin-bottom: 0;
+}
+.back{
+    font-size: 12px;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.backarrow{
+    width: 20px;
+    margin-right: 5px;
+}
+.preview{
+    width: 12rem;
+    position: relative;
+}
+.play{
+    background-color: brown;
+    border-radius: 50%;
+    width: 1.5rem;
+    position: absolute;
+}
+.images{
+    display: flex;
+    flex-direction: row;
+}
+.link{
+    display: flex; 
+}
+footer{
+    display: flex;
+    align-items: center;
+}
+.footerp{
+    width: 15rem;
+    font-size: 20px;
+    margin-left: 4rem;
+    margin-bottom: 3rem;
 }
