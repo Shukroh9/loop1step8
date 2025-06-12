@@ -82,14 +82,16 @@ h1{
     position: relative;
 }
 .play{
-    background-color: brown;
     border-radius: 50%;
-    width: 1.5rem;
+    width: 1.2rem;
+    background-color: brown;
     position: absolute;
+    margin: 3.2rem 5.5rem;
 }
 .images{
     display: flex;
     flex-direction: row;
+    margin-top: 0.5rem;
 }
 .link{
     display: flex; 
@@ -103,4 +105,11 @@ footer{
     font-size: 20px;
     margin-left: 4rem;
     margin-bottom: 3rem;
+}
+.photosanchor{
+    font-size: 12px;
+    color: black;
+}
+.forward{
+    width: 1rem;
 }
