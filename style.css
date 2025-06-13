@@ -7,6 +7,7 @@ main{
     width: 65%;
     margin: 3.5rem auto;
     display: flex;
+    box-shadow: 2px 2px 20px gray;
 }
 .left{
     background-image: url(background.jpg);
@@ -17,6 +18,7 @@ main{
     display: flex;
     margin-left: 2rem;
     margin-top: 2rem;
+    color: black;
  }
 .right{
     width: 65%;
